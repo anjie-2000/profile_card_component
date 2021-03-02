@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background:
+    url("images/bg-pattern-top.svg") no-repeat -80% 120%,
+    url("images/bg-pattern-bottom.svg") no-repeat 170% -70%;
+    background-color: darkcyan;}
+
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("https://fonts.google.com/specimen/Kumbh+Sans");}
+
+h3, p {
+    font-family: Kumbh Sans, Arial, sans-serif;
+    font-size: 18px;}
+
+h3 {
+    font-weight: 700px;}
+
+p {
+    font-weight: 400px;}    
+
+#container {
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;}    
+
+#text-box {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.stats {
+    background-color:  hsl(0, 0%, 100%);
+    float: left;
+    width: 41.5px;
+    border: 1px solid  hsl(0, 0%, 100%);}
+
+#left-pad {
+    padding-left: 50px;
+    padding-right: 39.5px;
+    border-bottom-left-radius: 20px;}
+
+#center-pad {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#right-pad {
+    padding-left: 39.5px;
+    padding-right: 50px;
+    border-bottom-right-radius: 20px;}
+
+#upper-box {
+    height: 150px;
+    border-bottom: 1px solid hsl(0, 0%, 59%);}
+
+h3 {
+    color: hsl(229, 23%, 23%)
+}
+
+    span, p {
+    color: hsl(0, 0%, 59%);
+}
+
+#content-upper-box {
+    width: 350px;
+    position: absolute;
+    top: 45%;}
+
+.upper-content {
+    text-align: center;
+}
+
+#victor {
+    margin-bottom: 10px;}
+
+#london {
+    margin-top: 8px;
+    margin-bottom: 24px;}
+
+span {
+    padding-inline-start: 5px;}
+
+#pattern {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#vic-container {
+    width: 96px;
+    position: relative;
+    top: 190px;
+    left: 125px;
+    border: 4px solid hsl(0, 0%, 100%);
+    border-radius: 100px;}
+
+#vic-image {
+    border-radius: 100px;}
